@@ -24,7 +24,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.wso2.carbon.utils</groupId>
     <artifactId>carbon-utils-parent</artifactId>
-    <version>1.2.2-SNAPSHOT</version>
+    <version>1.2.2</version>
     <packaging>pom</packaging>
     <name>WSO2 Carbon - Utils Parent</name>
     <url>http://wso2.com</url>
@@ -33,7 +33,7 @@
         <url>https://github.com/charwliu/carbon-utils.git</url>
         <developerConnection>scm:git:https://github.com/charwliu/carbon-utils.git</developerConnection>
         <connection>scm:git:https://github.com/charwliu/carbon-utils.git</connection>
-        <tag>HEAD</tag>
+        <tag>v1.2.2</tag>
     </scm>
 
     <modules>
@@ -99,7 +99,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <bundle.symbolicName>${project.artifactId}</bundle.symbolicName>
        
-        <carbon.utils.version>1.2.2-SNAPSHOT</carbon.utils.version>
+        <carbon.utils.version>1.2.2</carbon.utils.version>
         <equinox.osgi.version>3.11.0.v20160603-1336</equinox.osgi.version>
         <pax.logging.api.version>1.9.0</pax.logging.api.version>
         <testng.version>6.9.4</testng.version>
